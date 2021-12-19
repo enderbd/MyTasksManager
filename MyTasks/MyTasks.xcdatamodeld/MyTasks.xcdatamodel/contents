@@ -4,10 +4,11 @@
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <entity name="MyTask" representedClassName="MyTask" syncable="YES" codeGenerationType="class">
+        <attribute name="isTooLong" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
     </entity>
     <elements>
         <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
-        <element name="MyTask" positionX="-63" positionY="-9" width="128" height="44"/>
+        <element name="MyTask" positionX="-63" positionY="-9" width="128" height="59"/>
     </elements>
 </model>
